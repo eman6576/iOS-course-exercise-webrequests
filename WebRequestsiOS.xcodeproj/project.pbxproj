@@ -12,6 +12,7 @@
 		88F91E701C97D5C700E61C4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F91E6E1C97D5C700E61C4D /* Main.storyboard */; };
 		88F91E721C97D5C700E61C4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88F91E711C97D5C700E61C4D /* Assets.xcassets */; };
 		88F91E751C97D5C700E61C4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F91E731C97D5C700E61C4D /* LaunchScreen.storyboard */; };
+		88F91E9C1C97E28200E61C4D /* SWPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F91E9B1C97E28200E61C4D /* SWPerson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		88F91E711C97D5C700E61C4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88F91E741C97D5C700E61C4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88F91E761C97D5C700E61C4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88F91E9B1C97E28200E61C4D /* SWPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWPerson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		88F91E691C97D5C700E61C4D /* WebRequestsiOS */ = {
 			isa = PBXGroup;
 			children = (
+				88F91E9A1C97E25600E61C4D /* Model */,
 				88F91E6A1C97D5C700E61C4D /* AppDelegate.swift */,
 				88F91E6C1C97D5C700E61C4D /* ViewController.swift */,
 				88F91E6E1C97D5C700E61C4D /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				88F91E761C97D5C700E61C4D /* Info.plist */,
 			);
 			path = WebRequestsiOS;
+			sourceTree = "<group>";
+		};
+		88F91E9A1C97E25600E61C4D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				88F91E9B1C97E28200E61C4D /* SWPerson.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			files = (
 				88F91E6D1C97D5C700E61C4D /* ViewController.swift in Sources */,
 				88F91E6B1C97D5C700E61C4D /* AppDelegate.swift in Sources */,
+				88F91E9C1C97E28200E61C4D /* SWPerson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +299,7 @@
 				88F91E7B1C97D5C700E61C4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
